@@ -5,4 +5,4 @@ draw_set_valign(fa_center);
 draw_set_halign(fa_middle);
 
 // draw_text_ext(x,y,string,sep,w)	// 자동 줄바꿈(sep : 각 줄의 높이, w : 각 줄의 길이)
-draw_text(x, y,string_copy(text, 1, index));
+draw_text(x, y,string_copy(draw_say, 1, index));

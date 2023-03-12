@@ -1,0 +1,1 @@
+ds_queue_enqueue(text_queue,"Hello","I'm NPC","your code is working!", "yeahhhhhh :)");
