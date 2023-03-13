@@ -9,11 +9,16 @@ if (!obj_textbox.visible)
 			with(obj_textbox)
 			{
 				ds_queue_copy(text_queue,other.text_queue);
-				visible=true;
+				if(isTalkEnd)
+				{
+					isTalkEnd=false;
+					break;
+				}
 				draw_say="";
 				index=0;
 				my_say=ds_queue_dequeue(text_queue);
-				alarm=delay;
+				visible=true;
+				alarm[0]=delay;
 			}
 		}
 	}
