@@ -1,1 +1,1 @@
-ds_queue_enqueue(text_queue,"Yep","I'm another NPC","If you see this message", "yeeeeeeeeeeeeeeeee");
+ds_queue_enqueue(text_queue,"Yep","I'm another NPC","If you see this message", "there is no bug(now)", "yeeeeeeeeeeeeeeeee");
